@@ -1,0 +1,12 @@
+[global]
+filename=test_target.dat
+size=64m
+direct=1
+rw=read
+stonewall
+
+[read_1k]
+bs=1k
+
+[read_4k]
+bs=4k

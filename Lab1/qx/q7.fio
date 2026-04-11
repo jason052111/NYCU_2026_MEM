@@ -1,0 +1,14 @@
+[global]
+filename=test_target.dat
+direct=1
+rw=read
+size=1g
+stonewall
+
+[4k_bs]
+bs=4k
+
+[1m_bs]
+bs=1m
+ioengine=libaio
+iodepth=32
