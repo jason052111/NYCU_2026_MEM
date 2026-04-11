@@ -1,5 +1,7 @@
 # FIO Storage Performance Benchmarking
 
+instruction : https://hackmd.io/@-K51t0fWSvWUiebk9it3xw/r12aKNGqbg
+
 This project provides a comprehensive performance analysis of a high-performance NVMe SSD using the Flexible I/O Tester (`fio`). The benchmarking explores various I/O patterns and optimization techniques to understand the physical and logical limits of modern storage hardware.
 
 ## 💻 Hardware Specification
