@@ -207,9 +207,9 @@ Therefore, the major performance difference is mainly caused by poor L1 data cac
 
 ### Screenshots
 
-![Cachegrind result of good](314551147_good.png)
+![Cachegrind result of good](images/314551147_good.png)
 
-![Cachegrind result of bad](314551147_bad.png)
+![Cachegrind result of bad](images/314551147_bad.png)
 
 ---
 
@@ -272,9 +272,9 @@ The useful heap represents the memory actually requested by the program, while t
 
 ### Screenshots
 
-![Massif output showing time and memory allocation](314551147_massif_graph.png)
+![Massif output showing time and memory allocation](images/314551147_massif_graph.png)
 
-![Massif peak output](314551147_massif_peak.png)
+![Massif peak output](images/314551147_massif_peak.png)
 
 ---
 
@@ -314,7 +314,7 @@ The call graph shows that `verify_bfs_tree` is called from `run_bfs`, and it fur
 
 ### Screenshot
 
-![Callgrind call graph showing verify_bfs_tree has the highest self cost](314551147_callgrind_self.png)
+![Callgrind call graph showing verify_bfs_tree has the highest self cost](images/314551147_callgrind_self.png)
 
 ---
 
@@ -338,7 +338,7 @@ The call graph also shows the calling relationship from `mod_mac_y` to `mod_mac`
 
 ### Screenshot
 
-![Callgrind call graph showing mod_mac is the most frequently called function](314551147_callgrind_called.png)
+![Callgrind call graph showing mod_mac is the most frequently called function](images/314551147_callgrind_called.png)
 
 ---
 
@@ -395,7 +395,7 @@ These functions take a large amount of CPU self time because matrix multiplicati
 
 ### Screenshot
 
-![PyTorch profiler table with username and machine name](314551147_pytorch_profiler_table.png)
+![PyTorch profiler table with username and machine name](images/314551147_pytorch_profiler_table.png)
 
 ---
 
