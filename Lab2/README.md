@@ -426,4 +426,4 @@ This result is also consistent with the profiler table, where `aten::addmm` has 
 
 ### Screenshot
 
-![Chrome trace viewer visualization of PyTorch profiler result](314551147_chrome_trace.png)
+![Chrome trace viewer visualization of PyTorch profiler result](images/314551147_chrome_trace.png)
